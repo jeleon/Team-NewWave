@@ -18,23 +18,22 @@
 </head>
 
 <body>
-
     <!-- Navigation -->
-<nav class="navbar navbar-default">
-<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-  <span class="sr-only">Toggle navigation</span>
-  <span class="icon-bar"></span>
-  <span class="icon-bar"></span>
-  <span class="icon-bar"></span>
-  </button>
- <div class="container-fluid collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+   <nav class="navbar navbar-default ">
+   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+  <div class="container-fluid collapse navbar-collapse" id="bs-example-navbar-collapse-1">
     <div class="navbar-header">
       <a class="navbar-brand" href="#">Coog's Wall</a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Hot</a></li>
-      <li><a href="#">Trending</a></li>
-      <li><a href="#">Fresh</a></li> 
+      <li class="active"><a href="index.html">Hot</a></li>
+      <li><a href="index.html">Trending</a></li>
+      <li><a href="index.html">Fresh</a></li> 
       <li><a>|</a></li> 
     </ul>
      <ul class="nav navbar-nav">
@@ -47,15 +46,12 @@
           <input type="text" class="form-control" placeholder="Search">
         </div>
         <button type="button" class="btn btn-default btn-md" data-toggle="modal" data-target="#myModal">Post</button>
-    </form>
+      </form>
   </div>
 </nav>
-
-    <!-- Page Content -->
 <div class="container">
-    <div class="row">
-    <!-- ************POST************** -->
-    <div class="col-md-6 col-md-offset-3">
+  <div class="row">
+    <div class="col-md-6">
         <div class="thumbnail">
         <div class="caption">
           <h3>Post Title</h3>
@@ -75,30 +71,13 @@
         </div>
         </div>
     </div>
-    <!-- ************POST************** -->
-    <div class="col-md-6 col-md-offset-3">
-        <div class="thumbnail">
-        <div class="caption">
-          <h3>Post Title</h3>
-          <img src="img/fun.jpg" alt="">
-          <p style="color:blue;"> 500 points . 350 comments</p>
-          <p>
-            <button type="button" class="btn btn-default">
-              <span class="glyphicon glyphicon-arrow-up"></span> 
-            </button>
-            <button type="button" class="btn btn-default">
-              <span class="glyphicon glyphicon-arrow-down"></span> 
-            </button>
-            <a href="comment.html" class="btn btn-md btn-default " role="button"> <span class="glyphicon glyphicon-comment"></span> </a>
-            <a  class="btn btn-md btn-default " role="button"> <span class="glyphicon glyphicon-option-vertical"></span> </a>
-          </p>
-        </div>
-        </div>
+    <div class="form-group col-md-6">
+    <textarea class="form-control" rows="5" id="comment" placeholder="Write a comment"></textarea>
     </div>
 </div>
+</div>
+
     <!-- /.row -->
-
-
 <div class="modal fade" id="myModal" role="dialog">
     <div class="modal-dialog">
       <!-- Modal content-->
@@ -130,8 +109,6 @@
       </div> 
     </div>
   </div>
-
-
     <!-- jQuery Version 1.11.1 -->
     <script src="js/jquery.js"></script>
     <!-- Bootstrap Core JavaScript -->
